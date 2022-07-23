@@ -1,0 +1,32 @@
+{
+  "private": true,
+  "sideEffects": false,
+  "scripts": {
+    "build": "remix build",
+    "dev": "remix dev",
+    "start": "remix-serve build",
+    "debug": "remix-serve build --debug"
+  },
+  "dependencies": {
+    "@remix-run/node": "^1.6.5",
+    "@remix-run/react": "^1.6.5",
+    "@remix-run/serve": "^1.6.5",
+    "@types/openseadragon": "^3.0.3",
+    "iiif-processor": "^3.0.1",
+    "openseadragon": "^3.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "remix-utils": "^3.3.0"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^1.6.5",
+    "@remix-run/eslint-config": "^1.6.5",
+    "@types/react": "^17.0.45",
+    "@types/react-dom": "^17.0.17",
+    "eslint": "^8.15.0",
+    "typescript": "^4.7.4"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}

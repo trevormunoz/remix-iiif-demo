@@ -1,0 +1,19 @@
+{
+    "@context": "http://iiif.io/api/image/3/context.json",
+    "type": "ImageService3",
+    "profile": "level1",
+    "protocol": "http://iiif.io/api/image",
+    "extraFormats": [ "webp" ],
+    "preferredFormats": [ "webp", "jpg" ],
+    "tiles": [
+      {
+        "scaleFactors": [
+          1,
+          2,
+          4,
+          8
+        ],
+        "width": 256
+      }
+    ]
+  }
