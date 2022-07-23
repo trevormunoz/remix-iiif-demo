@@ -1,4 +1,5 @@
-# Welcome to Remix!
+# Remix IIIF
+Proof of concept integrating [IIIF Image API](https://iiif.io/api/image/3.0/) and [OpenSeadragon viewer](http://openseadragon.github.io/) into a Remix application
 
 - [Remix Docs](https://remix.run/docs)
 
